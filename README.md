@@ -5,6 +5,8 @@
 ## 目录
 
 - [第 2 章：本地 LLM 服务与工具调用](experiments/chapter-2/README.md)
+- [第 2 章 2.3 之后：上下文工程记忆型讲义](experiments/chapter-2/after-2-3-study-guide.md)
+- [第 3 章：用户记忆与知识库记忆型讲义](experiments/chapter-3/study-guide.md)
 - [实验记录模板](templates/experiment-template.md)
 
 ## 记录规范
