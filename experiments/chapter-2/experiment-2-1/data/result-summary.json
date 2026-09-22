@@ -1,0 +1,36 @@
+{
+  "experiment_id": "2-1",
+  "official_complete": true,
+  "model": "qwen3:0.6b",
+  "ollama_version": "0.34.2",
+  "model_digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+  "tool_case_passed": true,
+  "required_tools": [
+    "get_current_time",
+    "get_current_temperature"
+  ],
+  "parallel_execution": true,
+  "second_turn_terminated_without_tool_call": true,
+  "decode_tokens_per_second": 57.91995691696848,
+  "cache_hit_ttft_s": [
+    2.327969199999643,
+    2.5229792000027373,
+    2.5021636999990733,
+    2.494749599998613,
+    2.453583200000139
+  ],
+  "cache_miss_ttft_s": [
+    9.002236399999674,
+    9.27709540000069,
+    9.375687700001436,
+    9.513926200001151,
+    9.83287609999752
+  ],
+  "cache_hit_mean_ttft_s": 2.4602889800000414,
+  "cache_miss_mean_ttft_s": 9.400364360000093,
+  "cache_miss_over_hit": 3.820837485521695,
+  "matched_pairs": 5,
+  "credential_scan_passed": true,
+  "cost_usd": 0,
+  "source_run": "chapter2/local_llm_serving/runs/exp2-1-qwen3-0.6b-20260922"
+}
